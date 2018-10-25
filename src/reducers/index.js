@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import FamiliesList from './reducer_families';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+ families: FamiliesList,
 });
 
 export default rootReducer;
