@@ -1,0 +1,27 @@
+.container {
+    margin: 20px;
+}
+
+a {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+aside {
+    padding: 20px 0px 20px 20px;
+    background-color: #82e6e28c;
+
+}
+
+.list-group-item-action.selected,
+.list-group-item-action.selected:hover {
+    background-color: #18b3ad8c;
+    border-color: #18b3ad8c;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}

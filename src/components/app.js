@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import FamiliesList from '../containers/families_list';
+import React, { Fragment, Component } from "react";
+import FamiliesList from "./families_list";
 
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <FamiliesList />
-      </div>
+      </Fragment>
     );
   }
 }
